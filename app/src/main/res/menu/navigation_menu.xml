@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+    android:title="@string/nav_search_label">
+    <menu>
+      <group>
+        <item
+          android:id="@+id/menu_search_by_title"
+          android:title="@string/album_title_filter" />
+        <item
+          android:id="@+id/menu_search_by_artist"
+          android:title="@string/artist_name_filter" />
+        <item
+          android:id="@+id/menu_search_by_genre"
+          android:title="@string/genre_name_filter" />
+        <item
+          android:id="@+id/menu_search_by_release_year"
+          android:title="@string/release_year_filter" />
+      </group>
+    </menu>
+  </item>
+
+  <item
+    android:title="@string/nav_add_album">
+    <menu>
+      <group>
+        <item
+          android:id="@+id/menu_add_manually"
+          android:title="@string/add_album_manually" />
+        <item
+          android:id="@+id/menu_add_from_web"
+          android:title="@string/add_album_from_web" />
+        <item
+          android:id="@+id/menu_add_from_barcode"
+          android:title="@string/add_album_from_barcode" />
+      </group>
+    </menu>
+  </item>
+
+</menu>

@@ -1,0 +1,69 @@
+<resources>
+
+  // APP NAME
+  <string name="app_name">Record Shelf</string>
+
+  // UNKNOWN
+  <string name="unknown_artist_placeholder">Unknown Artist</string>
+  <string name="unknown_release_year_placeholder">Unknown Release Year</string>
+  <string name="unknown_album_title_placeholder">Unknown Title</string>
+  <string name="unknown_genre_placeholder">Unknown Genre</string>
+
+  // CONTENT DESCRIPTION
+  <string name="album_cover_content_description">Album Cover</string>
+  <string name="add_album_content_description">Add Album</string>
+  <string name="search_icon_content_description">Search Icon</string>
+
+  // LABELS
+  <string name="artist_label">Artist:</string>
+  <string name="genre_label">Genre:</string>
+  <string name="button_back_description">Back button</string>
+  <string name="library_activity_label">Library</string>
+  <string name="album_details_activity_label">Album Details</string>
+  <string name="album_title_label">Title:</string>
+  <string name="album_edit_activity_label">Edit Album Details</string>
+  <string name="release_year_label">Release Year:</string>
+  <string name="button_save_label">Save</string>
+  <string name="button_edit_label">Edit</string>
+  <string name="button_delete_label">Delete</string>
+  <string name="barcode_scanner_activity_label">Scan Album Barcode</string>
+  <string name="barcode_label">Barcode:</string>
+  <string name="search_album_activity_label">Search album</string>
+  <string name="search_album_details_activity_label">Search album details</string>
+  <string name="nav_search_label">Search by</string>
+
+  // CHOOSE IMAGE
+  <string name="pick_image_chooser">Choose an image</string>
+  <string name="choose_image_from_gallery">From gallery</string>
+  <string name="choose_image_from_camera">From camera</string>
+
+  // ERROR
+  <string name="error_occurred">An error occurred :/</string>
+
+  // HINT
+  <string name="album_title_hint">Album name</string>
+  <string name="search_album_hint">Enter an album name in the search bar</string>
+
+  // FILTER
+  <string name="album_title_filter">Album Title</string>
+  <string name="artist_name_filter">Artist Name</string>
+  <string name="genre_name_filter">Genre</string>
+  <string name="release_year_filter">Release Year</string>
+  <string name="filter_title">Filter By</string>
+
+  // PLACEHOLDER
+  <string name="barcode_none_placeholder">No barcode found</string>
+  <string name="scan_barcode_placeholder">Scan a barcode to view it\'s details</string>
+  <string name="search_label_placeholder">Search:</string>
+
+  // NAV
+  <string name="nav_add_album">Add Album</string>
+  <string name="add_album_from_barcode">From Barcode</string>
+  <string name="add_album_from_web">From the Web</string>
+  <string name="add_album_manually">Manually</string>
+
+  // MISC
+  <string name="no_result_found">No result found</string>
+  <string name="loading">Loading…</string>
+  <string name="sort_title">Sort By</string>
+</resources>

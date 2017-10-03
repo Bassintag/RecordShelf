@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:orientation="vertical">
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginEnd="96dp"
+        android:background="?android:colorAccent"
+        android:elevation="5dp">
+        <ImageView
+          android:id="@+id/album_cover"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="24dp"
+          android:adjustViewBounds="true"
+          android:background="?android:attr/selectableItemBackground"
+          android:clickable="true"
+          android:contentDescription="@string/album_cover_content_description"
+          android:src="@drawable/ic_album_inverse_24dp" />
+      </RelativeLayout>
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+        <EditText
+          android:id="@+id/album_name_edit_text"
+          android:layout_width="196dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentEnd="true"
+          android:inputType="text" />
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="16dp"
+          android:layout_alignBaseline="@id/album_name_edit_text"
+          android:layout_alignParentStart="true"
+          android:labelFor="@id/album_name_edit_text"
+          android:text="@string/album_title_label" />
+      </RelativeLayout>
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+        <AutoCompleteTextView
+          android:id="@+id/artist_name_edit_text"
+          android:layout_width="196dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentEnd="true"
+          android:inputType="text" />
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="16dp"
+          android:layout_alignBaseline="@id/artist_name_edit_text"
+          android:layout_alignParentStart="true"
+          android:labelFor="@id/artist_name_edit_text"
+          android:text="@string/artist_label" />
+      </RelativeLayout>
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+        <EditText
+          android:id="@+id/release_year_edit_text"
+          android:layout_width="96dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentEnd="true"
+          android:inputType="number" />
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="16dp"
+          android:layout_alignBaseline="@id/release_year_edit_text"
+          android:layout_alignParentStart="true"
+          android:labelFor="@id/release_year_edit_text"
+          android:text="@string/release_year_label" />
+      </RelativeLayout>
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+        <AutoCompleteTextView
+          android:id="@+id/genre_edit_text"
+          android:layout_width="96dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentEnd="true"
+          android:inputType="text" />
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="16dp"
+          android:layout_alignBaseline="@id/genre_edit_text"
+          android:layout_alignParentStart="true"
+          android:labelFor="@id/genre_edit_text"
+          android:text="@string/genre_label" />
+      </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp">
+      <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="?android:colorAccent"
+        android:text="@string/button_save_label"
+        android:textColor="?android:textColorPrimaryInverse" />
+    </RelativeLayout>
+  </LinearLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <RelativeLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="?colorPrimaryDark"
+    android:elevation="5dp">
+    <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="24dp"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="8dp"
+      android:layout_centerVertical="true"
+      android:contentDescription="@string/search_icon_content_description"
+      android:src="@drawable/ic_search_inverse_24dp" />
+    <EditText
+      android:id="@+id/search_input"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_toEndOf="@+id/imageView"
+      android:backgroundTint="?android:textColorPrimaryInverse"
+      android:hint="@string/album_title_hint"
+      android:imeOptions="actionSearch"
+      android:inputType="textPersonName"
+      android:textColor="?android:textColorPrimaryInverse"
+      android:textColorHint="?android:textColorTertiaryInverse" />
+  </RelativeLayout>
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/linearLayout">
+
+    <android.support.v7.widget.RecyclerView
+      android:id="@+id/search_result_recycler_view"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+    <TextView
+      android:id="@+id/search_placeholder_message"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:layout_centerInParent="true"
+      android:text="@string/search_album_hint"
+      android:textAlignment="center"
+      android:textColor="?android:textColorSecondary"
+      android:textSize="18sp" />
+  </RelativeLayout>
+</RelativeLayout>

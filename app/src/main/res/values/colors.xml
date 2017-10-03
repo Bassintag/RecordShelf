@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorBlackTransparent">#66000000</color>
+
+  <color name="colorPrimary">#ff3d00</color>
+  <color name="colorPrimaryLight">#ff7539</color>
+  <color name="colorPrimaryDark">#c30000</color>
+  <color name="textColorPrimary">#000000</color>
+  <color name="textColorAccent">#ffffff</color>
+  <color name="colorAccent">#651fff</color>
+  <color name="colorAccentLight">#a255ff</color>
+  <color name="colorAccentDark">#0100ca</color>
+
+  <color name="colorDelete">#d9534f</color>
+
+  <!-- OLD THEME
+  <color name="colorPrimary">#3f51b5</color>
+  <color name="colorPrimaryLight">#757ce8</color>
+  <color name="colorPrimaryDark">#002984</color>
+  <color name="textColorPrimary">#000000</color>
+  <color name="textColorAccent">#ffffff</color>
+  <color name="colorAccent">#ff4081</color>
+  <color name="colorAccentLight">#ff79b0</color>
+  <color name="colorAccentDark">#c60055</color>
+  <color name="colorDelete">#d9534f</color>
+  -->
+</resources>

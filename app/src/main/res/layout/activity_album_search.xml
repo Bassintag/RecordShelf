@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="?android:colorPrimaryDark"
+    android:elevation="5dp">
+    <TextView
+      android:id="@+id/search_label"
+      android:focusable="true"
+      android:focusableInTouchMode="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="8dp"
+      android:layout_centerVertical="true"
+      android:fontFamily="sans-serif-medium"
+      android:labelFor="@+id/search_input"
+      android:text="@string/search_label_placeholder"
+      android:textColor="?android:textColorPrimaryInverse"
+      android:textSize="20sp" />
+    <AutoCompleteTextView
+      android:id="@+id/search_input"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_toEndOf="@id/search_label"
+      android:backgroundTint="?android:textColorPrimaryInverse"
+      android:focusable="true"
+      android:selectAllOnFocus="true"
+      android:focusableInTouchMode="true"
+      android:imeOptions="actionSearch"
+      android:inputType="textPersonName"
+      android:textColor="?android:textColorPrimaryInverse"
+      android:textColorHint="?android:textColorTertiaryInverse" />
+  </RelativeLayout>
+  <android.support.v7.widget.RecyclerView
+    android:id="@+id/search_result_recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+</LinearLayout>
